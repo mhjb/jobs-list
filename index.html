@@ -6,14 +6,20 @@ body {
 }
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 th, td {
-  padding-bottom: 10px;
+  padding: 0 0 10px 5px;
 }
 th {
   text-align: left;
-  font-size: 150%;
+  font-size: 24px;
   border-bottom: 1px solid gray;
+}
+tr.subhead th {
+  border-bottom: none;
+  font-size: 18px;
+  padding-top: 15px;
 }
 td {
   font-size: 14pt;
@@ -25,8 +31,8 @@ input[type="checkbox"] {
 </head>
 <body>
     <table>
-      <tr><th>Elke</th><th>Christian</th><th>Esther</th>
-      </tr>
+      <tr><th>Elke</th><th>Christian</th><th>Esther</th></tr>
+      <tr class="subhead"><th colspan="3">Morning</td></tr>
       <tr>
         <td><input type="checkbox" id="1" /><label for="1">👗Dress</label></td>
         <td><input type="checkbox" id="2" /><label for="2">👗Dress</label></td>
@@ -72,8 +78,7 @@ input[type="checkbox"] {
         <td><input type="checkbox" id="26" /><label for="26">🧥Final layers</label></td>
         <td><input type="checkbox" id="27" /><label for="27">🧥Final layers</label></td>
       </tr>
-      <tr><td colspan=3></td>
-      </tr>
+      <tr class="subhead"><th colspan="3">Afternoon</td></tr>
       <tr>
         <td><input type="checkbox" id="28" /><label for="28">🎒Empty bag and put away </label></td>
         <td><input type="checkbox" id="29" /><label for="29">🎒Empty bag and put away </label></td>
@@ -104,15 +109,7 @@ input[type="checkbox"] {
         <td><input type="checkbox" id="44" /><label for="44">📚Reading</label></td>
         <td></td>
       </tr>
-      <tr><td colspan=3></td>
-      </tr>
-      <tr>
-        <td><input type="checkbox" id="46" /><label for="46">Help with other task e.g. washing</label></td>
-        <td><input type="checkbox" id="47" /><label for="47">Help with other task e.g. washing</label></td>
-        <td><input type="checkbox" id="48" /><label for="48">Help with other task e.g. washing</label></td>
-      </tr>
-      <tr><td colspan=3></td>
-      </tr>
+      <tr class="subhead"><th colspan="3">Evening</td></tr>
       <tr>
         <td><input type="checkbox" id="49" /><label for="49">🍽️Set table</label></td>
         <td><input type="checkbox" id="50" /><label for="50">🍽️Set table</label></td>
@@ -128,8 +125,7 @@ input[type="checkbox"] {
         <td><input type="checkbox" id="56" /><label for="56">😬Teeth</label></td>
         <td><input type="checkbox" id="57" /><label for="57">😬Teeth</label></td>
       </tr>
-      <tr><td colspan=3></td>
-      </tr>
+      <tr class="subhead"><th colspan="3">Saturday</td></tr>
       <tr>
         <td><input type="checkbox" id="58" /><label for="58">🚪Tidy bedroom</label></td>
         <td><input type="checkbox" id="59" /><label for="59">🚪Tidy bedroom</label></td>
