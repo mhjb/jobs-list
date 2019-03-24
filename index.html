@@ -15,7 +15,6 @@ th, td {
 th {
   text-align: left;
   font-size: 24px;
-  border-bottom: 1px solid gray;
   background-color: white;
 }
 tr.subhead th {
@@ -34,12 +33,12 @@ input[type="checkbox"] {
 <body>
     <table>
       <colgroup>
-        <col style="background-color:#efe; width:4em;">
+        <col style="background-color:#efe; width:4em; border-left: 1px solid gray">
         <col style="background-color:#efe">
-        <col style="background-color:#fee; width:4em;">
+        <col style="background-color:#fee; width:4em; border-left: 1px solid gray">
         <col style="background-color:#fee">
-        <col style="background-color:#eef; width:4em;">
-        <col style="background-color:#eef">
+        <col style="background-color:#eef; width:4em; border-left: 1px solid gray">
+        <col style="background-color:#eef; border-right: 1px solid gray">
       </colgroup>
       <tr>
         <th colspan="2">Elke</th>
@@ -57,33 +56,28 @@ input[type="checkbox"] {
         <td><input type="checkbox" id="6" /><label for="6">🛏</td><td>Make bed</label></td>
       </tr>
       <tr>
-        <td><input type="checkbox" id="7" /><label for="7">♼</td><td>Recycling</label></td>
-        <td><input type="checkbox" id="8" /><label for="8">🍽</td><td>Dishwasher</label></td>
-        <td><input type="checkbox" id="9" /><label for="9">🥄</td><td>Set breakfast table</label></td>
-      </tr>
-      <tr>
         <td><input type="checkbox" id="10" /><label for="10">🍽</td><td>Cutlery</label></td>
-        <td><input type="checkbox" id="11" /><label for="11">🍞</td><td>Breakfast (eat & clear)</label></td>
+        <td><input type="checkbox" id="8" /><label for="8">🍽</td><td>Dishwasher</label></td>
         <td><input type="checkbox" id="12" /><label for="12">🍞</td><td>Breakfast (eat & clear)</label></td>
       </tr>
       <tr>
         <td><input type="checkbox" id="13" /><label for="13">🍞</td><td>Breakfast (eat & clear)</label></td>
-        <td><input type="checkbox" id="20" /><label for="20">😬</td><td>Teeth</label></td>
+        <td><input type="checkbox" id="11" /><label for="11">🍞</td><td>Breakfast (eat & clear)</label></td>
         <td><input type="checkbox" id="15" /><label for="15">🗑</td><td>Compost</label></td>
       </tr>
       <tr>
         <td><input type="checkbox" id="16" /><label for="16">💇</td><td>Hair</label></td>
-        <td><input type="checkbox" id="20b" /><label for="20b">🎒</td><td>Bag</label></td>
+        <td><input type="checkbox" id="20" /><label for="20">😬</td><td>Teeth</label></td>
         <td><input type="checkbox" id="18" /><label for="18">😬</td><td>Teeth</label></td>
       </tr>
       <tr>
         <td><input type="checkbox" id="19" /><label for="19">😬</td><td>Teeth</label></td>
-        <td><input type="checkbox" id="26" /><label for="26">🎩</td><td>Final layers</label></td>
+        <td><input type="checkbox" id="20b" /><label for="20b">🎒</td><td>Bag</label></td>
         <td><input type="checkbox" id="21" /><label for="21">🚽</td><td>Toilet</label></td>
       </tr>
       <tr>
         <td><input type="checkbox" id="19b" /><label for="19b">🎒</td><td>Bag</label></td>
-        <td colspan="2"></td>
+        <td><input type="checkbox" id="26" /><label for="26">🎩</td><td>Final layers</label></td>
         <td><input type="checkbox" id="21b" /><label for="21b">🎒</td><td>Bag</label></td>
       </tr>
       <tr>
@@ -118,7 +112,7 @@ input[type="checkbox"] {
         <td><input type="checkbox" id="42" /><label for="42">🐱</td><td>Top up cat food & water</label></td>
       </tr>
       <tr>
-        <td colspan="2"></td>
+        <td><input type="checkbox" id="7" /><label for="7">♼</td><td>Recycling</label></td>
         <td><input type="checkbox" id="40" /><label for="40">🐱💩💧</td><td>Clear any cat wee or poo</label></td>
         <td colspan="2"></td>
       </tr>
